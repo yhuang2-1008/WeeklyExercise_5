@@ -280,8 +280,7 @@ new_cases_past_week <- covid19 %>%
   mutate(past_wk = lag(cases)) %>%
   replace_na(list(past_wk = 0)) %>% 
   mutate(new_case_past_wk = cases - past_wk) %>% 
-  filter(new_case_past_wk > 20) %>% 
-  
+  filter(new_case_past_wk > 20)
 ```
   
   * Create a static plot with cumulative cases on the x-axis and new cases in the past 7 days on the y-axis. Connect the points for each state over time. HINTS: use `geom_path()` and add a `group` aesthetic.  Put the x and y axis on the log scale and make the tick labels look nice - `scales::comma` is one option. This plot will look pretty ugly as is.
