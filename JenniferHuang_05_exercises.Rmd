@@ -374,7 +374,7 @@ anim_save("covid_state_2018pop.gif")
 knitr::include_graphics("covid_state_2018pop.gif")
 ```
 
-  * Across all US states, around March is when there's 250 cases per 10,000 people. The map shows a faster color change from 750 cases per 10,000 people starting in October. After October, many more states have at least 1,250 cases per 10,000 people. 
+  * Across all US states, around March is when there's 250 cases per 10,000 people. The map shows a faster color change from 750 cases per 10,000 people starting in October. After October, many more states lit up for 1,250 cases per 10,000 people. 
 
 $~$
 
